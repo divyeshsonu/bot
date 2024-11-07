@@ -55,12 +55,12 @@ logging = logging.getLogger()
 
 
 bot = Client("bot",
-             bot_token=os.environ.get("BOT_TOKEN"),
-             api_id=int(os.environ.get("API_ID")),
-             api_hash=os.environ.get("API_HASH"))
-auth_users = [1318247204,6004318404,1511103739,5986734743,5971411129,6488555238,6488555238]
+             bot_token=os.environ.get("7511373542:AAEMGiX9wzNDnz367DDHAIuAxWxEguBLKxw"),
+             api_id=int(os.environ.get("28187462")),
+             api_hash=os.environ.get("0159fbade6b803a808fbc5e248d52b87"))
+auth_users = [1291491834]
 sudo_users = auth_users
-sudo_groups = [-4088348095,-4073031859]
+sudo_groups = [-4548932679]
 
 shell_usage = f"**USAGE:** Executes terminal commands directly via bot.\n\n<pre>/shell pip install requests</pre>"
 def one(user_id):
